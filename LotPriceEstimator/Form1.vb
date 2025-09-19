@@ -60,6 +60,9 @@
 
         Dim summary As String = $"Order for {customerName} submitted. Final Total: {finalTotal.ToString("")}"
         MessageBox.Show(summary, "Order Confirmation", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        ' Display an informational message box with an "Information" icon
+        'This Icon indicates that the message Is non-critical And merely provides information to the user.
+
     End Sub
 End Class
 
